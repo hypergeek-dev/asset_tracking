@@ -50,7 +50,7 @@ The application uses Entity Framework Core to create a SQL Server database named
 
 The connection string is configured in the `AssetContext` class in `AssetContext.cs`. Update the `Server` and `Database` fields as needed.
 
-```csharp
+## csharp
 optionsBuilder.UseSqlServer(@"Server=MAINCORE\\SQLEXPRESS;Database=AssetTrackingDB;Trusted_Connection=True;TrustServerCertificate=true;");
 
 ## Enums
